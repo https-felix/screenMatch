@@ -70,7 +70,6 @@ public class Principal {
 
         System.out.println("Lista de filmes: " + listaDeFilmes);
         System.out.println("Filme 1: " + listaDeFilmes.get(0).toString());
-
     }
 }
 
