@@ -1,3 +1,5 @@
+package com.felix.screenmatch.principal;
+
 import com.felix.screenmatch.calculos.CalculadoraDeTempo;
 import com.felix.screenmatch.calculos.FiltroRecomendacao;
 import com.felix.screenmatch.modelos.Episodio;
@@ -8,7 +10,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme("O Poderoso chefinho",1998);;
+        Filme meuFilme = new Filme("O Poderoso chefinho",1998);
         meuFilme.setDuracaoEmMinutos(180);
 
         meuFilme.exibeFichaTecnica();
