@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56f2cad8-44f9-4215-81d4-ab845b227fc0" name="Changes" comment="commit one">
-      <change afterPath="$PROJECT_DIR$/src/com/felix/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
+    <list default="true" id="56f2cad8-44f9-4215-81d4-ab845b227fc0" name="Changes" comment="Last Commit">
+      <change afterPath="$PROJECT_DIR$/src/com/felix/screenmatch/principal/PrincipalComBusca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/felix/screenmatch/principal/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/felix/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/felix/screenmatch/modelos/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/felix/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/felix/screenmatch/modelos/Titulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.PrincipalComBusca.executor": "Run",
     "Application.PrincipalComListas.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,13 +55,26 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/ka140/IdeaProjects/screenMatch/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrincipalComListas">
+  <component name="RunManager" selected="Application.PrincipalComBusca">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.felix.screenmatch.principal.Principal" />
       <module name="screenMatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalComBusca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.felix.screenmatch.principal.PrincipalComBusca" />
+      <module name="screenMatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.felix.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalComBusca" />
         <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Principal" />
       </list>
@@ -105,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716069629647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Last Commit">
+      <option name="closed" value="true" />
+      <created>1718578791702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718578791702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit one" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit one" />
+    <MESSAGE value="Last Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last Commit" />
   </component>
 </project>
