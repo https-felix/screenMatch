@@ -54,6 +54,7 @@ public class PrincipalComBusca {
             System.out.println("Algum erro na busca, favor verificar o nome!");
         } finally { //finally vai executar tanto no try quanto no catch;
             System.out.println("Código executado e finalizado! (certo ou errado mais terminou)");
+            System.out.println("Teste de commit");
         }
     }
 }
